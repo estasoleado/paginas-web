@@ -12,9 +12,10 @@ section article .v{
     width: 400px ;
 } 
 header{
+
     position: relative;
     top: 0px;
-    background-color: rgb(85, 81, 81) ;
+    background-color: rgb(75, 72, 72) ;
 }
 header h1 {
    
@@ -39,12 +40,12 @@ body {
     
 }
 article {
-    mar
+    
     
     box-shadow: 0px 0px 10px 0px rgb(27, 27, 27);
     color: white;
     margin: auto;
-    background-color: rgb(68, 64, 64);
+    background-color: rgb(19, 15, 15);
     text-align: center;
     width: 660px;
     margin-top: 30px;
@@ -57,8 +58,48 @@ article {
 }
 footer{
     color: aliceblue;
-    background-color:rgb(85, 81, 81)  ;
+    background-color:rgb(17, 16, 16)  ;
     padding: 25px;
     margin: auto;
-}                        
+}  
 
+div{
+    margin: 100px;
+background-color: darkgrey;
+padding: 20px;
+border-radius: 10px;
+background-color: rgb(53, 35, 35);
+box-shadow: 0px 0px 10px 0px rgb(27, 27, 27);
+border: 5px solid rgb(73, 66, 66);
+width: 400px;
+margin: auto;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+input {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color: #be3e3e;
+    background-color: #fff;
+  
+    border: solid 2px rgb(8, 7, 7);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+input:hover {
+    background: #fff;
+  
+    color: #000000;
+    border: 0px rgb(228, 228, 228);
+    box-shadow: #181717  11px 2px 5px 1px ;
+}
