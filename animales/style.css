@@ -1,66 +1,95 @@
+
+/*nuevo*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
+    
     background-color: rgb(252, 216, 173);
     display:flex;
     justify-content: space-between;
     align-items: center;
     
 }
+
 nav img{
-width: 100px;
+    
+    width: 100px;
+
 }
 
 header ul{
+
     position: relative;
     display: flex;
     align-items: center;
+
 }
+
 header ul li{
+
     list-style: none;
     margin-left: 20px
+
 }
 header ul li a{
+   
     position: relative;
     text-decoration: none;
     border-radius: 0px;
 
 }
+
+/*cambios*/
 footer{
+    display: flex;
+    justify-content: space-between;
     color: rgb(19, 21, 24);
     background-color:rgb(241, 224, 165)  ;
     padding: 9px;
-    margin: none;
+    
 }
+
+/*cambios*/
 section article img{
+
     width: 200px;
-}
-section article .l{
- height: auto;
-}
-article {
-    height: 500px;
-    box-shadow: 0px 0px 10px 0px rgb(27, 27, 27);
-    color: rgb(31, 25, 25);
-    margin: 10px;
-    background-color: rgb(235, 224, 176);
-    text-align: center;
-    width: 288px;
-    position: relative;
-    border: 5px solid rgb(211, 185, 128);
-    padding: 12px;
-    border-radius: 15px;
+    height: 300px;
     
- display: inline-block;
 }
-section{
-    background-color: rgb(243, 242, 200);
-    
-    width: 100%;
-    text-align: center;
+
+
+main section article {
     display: inline-block;
     
-    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(27, 27, 27);
+    color: rgb(31, 25, 25);
+    margin: 20px;
+    background-color: rgb(235, 224, 176);
+    width: 288px;
+    border: 5px solid rgb(211, 185, 128);
+    
+    border-radius: 15px;
+    text-align: center;
+}
+article div p{
+    position:absolute;
+    top:10%;
+    padding: 10px
+}
 
-
+article div{
+    width: 288px;
+    height: 150px;
+    position: relative;
+    
+}
+main {
+    display: flex;
+    justify-content:center;
+    
 }
 
 
