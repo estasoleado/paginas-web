@@ -1,4 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
+
     background-color: rgb(252, 216, 173);
     display:flex;
     justify-content: space-between;
@@ -25,13 +31,17 @@ header ul li a{
 
 }
 footer{
+    margin-top: 1px;
     color: rgb(19, 21, 24);
     background-color:rgb(241, 224, 165)  ;
     padding: 9px;
     margin: none;
+    display: flex;
+    justify-content: space-between;
 }
 section article img{
-    width: 200px;
+    width: 150px;
+    
 }
 section article .l{
  height: auto;
@@ -63,7 +73,102 @@ section{
 
 }
 
+div  {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 220px;
+    width: 288px;
+    position: relative;
+}
+div  p, img{
+    position: absolute;
+    top:20%;
 
+}
+.q{
+    position: unset;
+}
+ .w{
+    
+    height: 60%;
+    width: 70%;
+}
+.m{
+    height: 589px;
+    width: 1350px;
+}
+.e{
+    position: unset;
+}
+.j{
+    position: unset;
+}
+.ñ{
+    justify-content: center;
+    
+   
+    position: absolute;
+    margin: 0px;
+    height: auto;
+    width: auto;
+
+    
+    
+
+}
+section .h{
+
+    background-color: rgb(243, 242, 200);
+    margin-bottom: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    
+    align-items: unset;
+
+}
+ .t{
+    text-align: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+   
+}
+#nombre{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#fecha{
+    margin-top: 20px;
+    margin-left: 278px;
+}
+#animalavistado{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+#descripción{
+    margin-left: 190px;
+    margin-top: 20px;
+}    
+#email{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#sumbit{
+    margin-left: 340px;
+    margin-top: 20px;
+   
+}
+.a{
+    justify-content: center;
+    
+   text-align: center;
+    position: absolute;
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
 
 
 
